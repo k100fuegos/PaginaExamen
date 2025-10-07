@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="css/contactos.css">
+    <link rel="stylesheet" href="css/index.css">
+   
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo-container">
+                <img src="img/NextGen.png" alt="Logo NextGen Academy" class="logo">
+                <span class="company-name">NextGen Academy</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cursos.html">Cursos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section class="hero-contact">
+        <div class="hero-content">
+            <h1>Contáctanos</h1>
+            <p>Estamos aquí para ayudarte. Envíanos un mensaje y nos pondremos en contacto contigo lo antes posible.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <!-- Info Side -->
+            <div class="contact-info">
+                <div class="info-item">
+                    <div class="info-icon">📍</div>
+                    <div class="info-content">
+                        <h3>Ubicación</h3>
+                        <p>San Miguel Centro, San Miguel<br>El Salvador</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">📞</div>
+                    <div class="info-content">
+                        <h3>Teléfono</h3>
+                        <p>+503 6028-9519</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">✉️</div>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <p>info@nextgenacademy.com</p>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <div class="info-icon">⏰</div>
+                    <div class="info-content">
+                        <h3>Horario de Atención</h3>
+                        <p>Lunes a Viernes: 8:00 AM - 5:00 PM<br>Sábados: 8:00 AM - 2:00 PM</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Form Side -->
+            <div class="contact-form">
+                <h2>Envíanos un mensaje</h2>
+                <p>Completa el formulario y te responderemos en menos de 24 horas</p>
+
+                <!-- Tabs -->
+                <div class="form-tabs">
+                    <button class="tab-button active" onclick="switchTab('info')">Solicitar Información</button>
+                    
+                </div>
+
+                <!-- Tab Info -->
+                <div id="info-tab" class="tab-content active">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Nombre *</label>
+                                <input type="text" placeholder="Tu nombre" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Apellido *</label>
+                                <input type="text" placeholder="Tu apellido" required>
+                            </div>
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label>Email *</label>
+                                <input type="email" placeholder="tu@email.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label>Teléfono *</label>
+                                <input type="tel" placeholder="+503 1234-5678" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Curso de Interés</label>
+                            <select>
+                                <option value="">Selecciona un curso</option>
+                                <option value="programacion">Programación</option>
+                                <option value="diseno">Diseño Grafico</option>
+                                <option value="marketing">Ofimatica</option>
+                                
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Mensaje *</label>
+                            <textarea placeholder="Cuéntanos más sobre lo que necesitas..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="submit-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+
+               
+    </section>
+
+    
+</body>
+</html>
